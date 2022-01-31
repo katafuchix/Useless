@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Cal Detail View Controller-->
+        <scene sceneID="fzw-MD-AUR">
+            <objects>
+                <viewController storyboardIdentifier="CalDetailViewController" id="WIc-fW-hib" customClass="CalDetailViewController" customModule="Useless" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="UJo-lU-7s9"/>
+                        <viewControllerLayoutGuide type="bottom" id="nZj-XA-pfi"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ghZ-yQ-ak5">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LTq-20-hVd">
+                                <rect key="frame" x="580" y="0.0" width="300" height="50"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="Rbc-D7-PMa"/>
+                                    <constraint firstAttribute="height" constant="50" id="lb2-2r-Ix0"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="LTq-20-hVd" secondAttribute="trailing" constant="-300" id="4Wh-H3-Iqe"/>
+                            <constraint firstItem="LTq-20-hVd" firstAttribute="top" secondItem="UJo-lU-7s9" secondAttribute="bottom" id="mbc-6a-zfv"/>
+                        </constraints>
+                    </view>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <connections>
+                        <outlet property="slideView" destination="LTq-20-hVd" id="Pl3-si-w2k"/>
+                        <outlet property="slideViewConstraint" destination="4Wh-H3-Iqe" id="gvk-OK-K8h"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="k9G-1U-mjL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="467" y="386"/>
+        </scene>
+        <!--Cal All View Controller-->
+        <scene sceneID="5SC-JV-o2x">
+            <objects>
+                <viewController storyboardIdentifier="CalAllViewController" id="KFC-Y0-FR3" customClass="CalAllViewController" customModule="Useless" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="o2B-HD-Dnw"/>
+                        <viewControllerLayoutGuide type="bottom" id="7V9-Wf-9Tf"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="YeA-Ou-EUa">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ihc-nY-j7f">
+                                <rect key="frame" x="580" y="0.0" width="300" height="50"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="Nc9-E2-hwN"/>
+                                    <constraint firstAttribute="width" constant="300" id="bPr-3T-FRp"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="Ihc-nY-j7f" secondAttribute="trailing" constant="-300" id="LkX-5F-e1Y"/>
+                            <constraint firstItem="Ihc-nY-j7f" firstAttribute="top" secondItem="YeA-Ou-EUa" secondAttribute="topMargin" id="UWG-Wt-k0a"/>
+                        </constraints>
+                    </view>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <connections>
+                        <outlet property="slideView" destination="Ihc-nY-j7f" id="JQj-fL-POb"/>
+                        <outlet property="slideViewConstraint" destination="LkX-5F-e1Y" id="i7I-IC-P28"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ROQ-fT-3wY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1415" y="350"/>
+        </scene>
+    </scenes>
+</document>

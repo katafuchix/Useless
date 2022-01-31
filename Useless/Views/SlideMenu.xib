@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="SlideMenu" customModule="Useless" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="300" height="50"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XE3-Wj-5MM">
+                    <rect key="frame" x="0.0" y="0.0" width="20" height="50"/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="F8b-ap-KOg"/>
+                        <constraint firstAttribute="width" constant="20" id="nD6-UX-Kyv"/>
+                    </constraints>
+                    <state key="normal" title="◀︎">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aZp-Fy-Zkd">
+                    <rect key="frame" x="30" y="5" width="40" height="40"/>
+                    <state key="normal" image="twitter"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="svF-K8-dnl">
+                    <rect key="frame" x="80" y="5" width="40" height="40"/>
+                    <state key="normal" image="facebook"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J8Z-FK-7P7">
+                    <rect key="frame" x="130" y="5" width="40" height="40"/>
+                    <state key="normal" image="line"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JEC-oS-fxL">
+                    <rect key="frame" x="225" y="5" width="40" height="40"/>
+                    <state key="normal" image="cameraroll"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VYT-Tc-CmU">
+                    <rect key="frame" x="180" y="5" width="40" height="40"/>
+                    <state key="normal" image="mail"/>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="XE3-Wj-5MM" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="0DC-9j-lNm"/>
+                <constraint firstItem="XE3-Wj-5MM" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="b5C-Lh-6OQ"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="button" destination="XE3-Wj-5MM" id="OR3-cJ-tfk"/>
+                <outlet property="fbButton" destination="svF-K8-dnl" id="1Uu-iS-lRQ"/>
+                <outlet property="lineButton" destination="J8Z-FK-7P7" id="dOe-w9-9fa"/>
+                <outlet property="mailButton" destination="VYT-Tc-CmU" id="RTg-s4-6Nw"/>
+                <outlet property="photoButton" destination="JEC-oS-fxL" id="UaY-fU-GtK"/>
+                <outlet property="twitterButton" destination="aZp-Fy-Zkd" id="fEX-s7-pPs"/>
+            </connections>
+        </view>
+    </objects>
+    <resources>
+        <image name="cameraroll" width="64" height="64"/>
+        <image name="facebook" width="57" height="57"/>
+        <image name="line" width="64" height="64"/>
+        <image name="mail" width="64" height="64"/>
+        <image name="twitter" width="64" height="64"/>
+    </resources>
+</document>

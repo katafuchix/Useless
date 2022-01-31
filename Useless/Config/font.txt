@@ -1,0 +1,15 @@
+フォント名,フォント名英字,フォントファイル
+Helvetica,Helvetica,Helvetica
+東青梅ゴシック,HigashiOme-Gothic,HigashiOme-Gothic
+やさしさゴシック,YasashisaGothic,07YasashisaGothic
+ほのか丸ゴシック,Honoka-Maru-Gothic,Honoka-Maru-Gothic
+ほのかアンティーク角,Honoka-Antique-Kaku,Honoka-Antique-Kaku
+ほのか明朝,Honoka-Mincho,Honoka-Mincho
+刻丸明朝かな,Koku-Mincho-Regular,Koku-Mincho-Regular
+新コミック体,Shin-comic-tai,F910-Shin-comic-tai
+スマートフォントUI,SmartFontUI,03SmartFontUI
+小瑠璃フォント,Koruri-Regular,Koruri-Regular
+うずらフォント,uzura_font,uzura_font
+JKゴシックフォント,JK-Gothic-L,JK-Gothic-L
+たぬき油性マジック,Tanuki-Permanent-Marker,Tanuki-Permanent-Marker
+ニコモジ＋（プラス）,NicoMoji+,NicoMoji+

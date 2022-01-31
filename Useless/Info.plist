@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleDisplayName</key>
+	<string>My Saving</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.1</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>1.4</string>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>line</string>
+	</array>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>UIAppFonts</key>
+	<array>
+		<string>KUDOU.TTF</string>
+		<string>font_1_kokumr_1.00_rls.ttf</string>
+		<string>JKG-L_3.ttf</string>
+		<string>uzura.ttf</string>
+		<string>Koruri-Regular.ttf</string>
+		<string>03SmartFontUI.ttf</string>
+		<string>TanukiMagic.ttf</string>
+		<string>07YasashisaGothic.ttf</string>
+		<string>nicomoji-plus_1.11.ttf</string>
+		<string>f910-shin-comic-2.01.otf</string>
+		<string>font_1_honokamarugo_1.1.ttf</string>
+		<string>font_1_honokamin.ttf</string>
+		<string>font_1_ant-kaku.ttf</string>
+		<string>HigashiOme-Gothic-1.3i.ttf</string>
+	</array>
+	<key>UILaunchStoryboardName</key>
+	<string>Launch</string>
+	<key>UIMainStoryboardFile</key>
+	<string>Main</string>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>armv7</string>
+	</array>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+	</array>
+</dict>
+</plist>
